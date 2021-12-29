@@ -8,7 +8,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "yarn && npx ts-node index.ts"
+    "start": "npx ts-node index.ts"
   },
   "dependencies": {
     "opensea-activity-bot": "ryanio/opensea-activity-bot",
