@@ -19,7 +19,7 @@ if (DEBUG) {
 const exec = (instance: any) => {
   const { name, bot } = instance
 
-  let cwd = 'node_modules/'
+  let cwd = '../node_modules/'
 
   if (bot === Bot.OpenseaActivity) {
     cwd += 'opensea-activity-bot'
@@ -47,7 +47,7 @@ async function main() {
       console.log(`Starting ${name} (${bot})${delayMsg}...`)
       setTimeout(() => {
         exec(instance)
-      }, delay * 1000 ?? 0)
+      }, (delay ?? 0) * 1000)
     }
   }
 
