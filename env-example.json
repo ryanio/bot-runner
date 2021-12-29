@@ -1,0 +1,50 @@
+{
+  "instances": [
+    {
+      "name": "example-activity-1",
+      "bot": "opensea-activity-bot",
+      "env": {
+        "TOKEN_ADDRESS": "",
+        "OPENSEA_API_TOKEN": "",
+        "INFURA_PROJECT_ID": "",
+        "DISCORD_EVENTS": "",
+        "DISCORD_TOKEN": "",
+        "TWITTER_EVENTS": "",
+        "TWITTER_ACCESS_TOKEN": "",
+        "TWITTER_ACCESS_TOKEN_SECRET": "",
+        "TWITTER_CONSUMER_KEY": "",
+        "TWITTER_CONSUMER_SECRET": ""
+      }
+    },
+    {
+      "name": "example-listen-1",
+      "bot": "discord-nft-bot",
+      "env": {
+        "TOKEN_ADDRESS": "",
+        "TOKEN_NAME": "",
+        "MIN_TOKEN_ID": 1,
+        "MAX_TOKEN_ID": 6969,
+        "OPENSEA_API_TOKEN": "",
+        "INFURA_PROJECT_ID": "",
+        "DISCORD_TOKEN": ""
+      }
+    },
+    {
+      "name": "example-activity-2",
+      "bot": "opensea-activity-bot",
+      "delay": 30,
+      "env": {
+        "TOKEN_ADDRESS": "",
+        "OPENSEA_API_TOKEN": "",
+        "INFURA_PROJECT_ID": "",
+        "DISCORD_EVENTS": "",
+        "DISCORD_TOKEN": "",
+        "TWITTER_EVENTS": "",
+        "TWITTER_ACCESS_TOKEN": "",
+        "TWITTER_ACCESS_TOKEN_SECRET": "",
+        "TWITTER_CONSUMER_KEY": "",
+        "TWITTER_CONSUMER_SECRET": ""
+      }
+    }
+  ]
+}
