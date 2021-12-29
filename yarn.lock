@@ -818,6 +818,14 @@ whatwg-url@^5.0.0:
     tr46 "~0.0.3"
     webidl-conversions "^3.0.0"
 
+womptron@ryanio/womptron:
+  version "1.0.0"
+  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/2540e6334ac10ce8f217c7cccb9c4de1dc39e006"
+  dependencies:
+    file-api "^0.10.4"
+    node-fetch "^2.6.1"
+    twitter-lite "^1.1.0"
+
 ws@7.4.6:
   version "7.4.6"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"

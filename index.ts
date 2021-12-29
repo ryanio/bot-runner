@@ -1,11 +1,6 @@
 import { spawn } from 'child_process'
 import { resolve } from 'path'
 
-enum Bot {
-  OpenseaActivity = 'opensea-activity-bot',
-  DiscordNft = 'discord-nft-bot',
-}
-
 const { BOT_RUNNER_INSTANCES, DEBUG } = process.env
 
 const instances = JSON.parse(BOT_RUNNER_INSTANCES)
@@ -17,23 +12,9 @@ if (DEBUG) {
 }
 
 const exec = (instance: any) => {
-  const { name, bot } = instance
-
-  let cwd = '../node_modules/'
-
-  if (bot === Bot.OpenseaActivity) {
-    cwd += 'opensea-activity-bot'
-  } else if (bot === Bot.DiscordNft) {
-    cwd += 'discord-nft-bot'
-  } else {
-    console.error(`Unsupported bot type for ${name}: ${bot}`)
-    return
-  }
-
-  const env = { ...process.env, ...defaultEnv, ...instance.env }
   const p = spawn('yarn', ['run', 'start'], {
-    cwd: resolve(__dirname, cwd),
-    env,
+    cwd: resolve(__dirname, `../node_modules/${instance.bot}`),
+    env: { ...process.env, ...defaultEnv, ...instance.env },
     stdio: 'inherit',
   })
   processes.push(p)
