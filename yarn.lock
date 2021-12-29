@@ -820,7 +820,7 @@ whatwg-url@^5.0.0:
 
 womptron@ryanio/womptron:
   version "1.0.0"
-  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/2540e6334ac10ce8f217c7cccb9c4de1dc39e006"
+  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/67ef1e5935f55fec9fb85d9ccdbd8290e15436e3"
   dependencies:
     file-api "^0.10.4"
     node-fetch "^2.6.1"
