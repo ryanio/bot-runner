@@ -8,7 +8,8 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "npx ts-node index.ts"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "opensea-activity-bot": "ryanio/opensea-activity-bot",
