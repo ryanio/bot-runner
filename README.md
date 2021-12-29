@@ -6,11 +6,13 @@ A bot runner to help orchestrate running multiple bots in one instance, for exam
 
 ### Env
 
-Set env `BOT_RUNNER_INSTANCES` to a JSON array that mimics the structure of `env-example.json` with your own variables.
+Set `BOT_RUNNER_INSTANCES` to a JSON array that mimics the structure of `env-example.json` with your own variables.
 
-To generate this string output, in this directory run `node` then `JSON.stringify(require('./env-example.json'))`.
+To generate the string output for `BOT_RUNNER_INSTANCES` in this directory run `node` then `JSON.stringify(require('./env-example.json'))`.
 
-The `delay` parameter is useful for staggering OpenSea requests from multiple activity bots when using the same API key. This can be set to the number of seconds to delay the bot, e.g. `30` to signify a delay of 30 seconds, which would evenly distribute requests between two bots (with the default interval of 60s).
+#### Delay
+
+The `delay` parameter is useful for staggering OpenSea requests from multiple activity bots when using the same API key. This can be set to the number of seconds to delay the bot, e.g. `30` to signify a delay of 30 seconds, which would evenly distribute requests between two bots that use the default interval of 60s.
 
 ### Run
 
@@ -20,6 +22,6 @@ The `delay` parameter is useful for staggering OpenSea requests from multiple ac
 
 A `Procfile` is included for easy use on platforms like Heroku.
 
-Clone this repo, set up `env.json`, push it to heroku, and spin up a worker with `heroku ps:scale web=0 worker=1`
+Clone this repo, push it to heroku, set up the environment variables above, and spin up a worker with `heroku ps:scale web=0 worker=1`
 
 Then watch the logs with `heroku logs --tail`
