@@ -24,7 +24,7 @@ async function main() {
   const run = async () => {
     for (const instance of instances) {
       const { delay, bot, name } = instance
-      const delayMsg = delay ? ' in ' + delay + 's' : ''
+      const delayMsg = delay ? ` in ${delay}s` : ''
       console.log(`Starting ${name} (${bot})${delayMsg}...`)
       setTimeout(() => {
         exec(instance)
