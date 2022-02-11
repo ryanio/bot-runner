@@ -19,7 +19,7 @@
     {
       "name": "example-activity-2",
       "bot": "opensea-activity-bot",
-      "delay": 90,
+      "delay": 30,
       "env": {
         "TOKEN_ADDRESS": "",
         "OPENSEA_API_TOKEN": "",
