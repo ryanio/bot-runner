@@ -409,14 +409,14 @@
     form-data "^3.0.0"
 
 "@types/node@*":
-  version "17.0.13"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.13.tgz#5ed7ed7c662948335fcad6c412bb42d99ea754e3"
-  integrity sha512-Y86MAxASe25hNzlDbsviXl8jQHb0RDvKt4c40ZJQ1Don0AAL0STLZSs4N+6gLEO55pedy7r2cLwS+ZDxPm/2Bw==
+  version "17.0.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.17.tgz#a8ddf6e0c2341718d74ee3dc413a13a042c45a0c"
+  integrity sha512-e8PUNQy1HgJGV3iU/Bp2+D/DXh3PYeyli8LgIwsQcs1Ar1LoaWHSIT6Rw+H2rNJmiq6SNWiDytfx8+gYj7wDHw==
 
 "@types/node@^16.11.19":
-  version "16.11.21"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.21.tgz#474d7589a30afcf5291f59bd49cca9ad171ffde4"
-  integrity sha512-Pf8M1XD9i1ksZEcCP8vuSNwooJ/bZapNmIzpmsMaL+jMI+8mEYU3PKvs+xDNuQcJWF/x24WzY4qxLtB0zNow9A==
+  version "16.11.24"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.24.tgz#9624338b685fea65fb1aba6c7b7eb45ca2df7188"
+  integrity sha512-Ezv33Rl4mIi6YdSHfIRNBd4Q9kUe5okiaw/ikvJiJDmuQZNW5kfdg7+oQPF8NO6sTcr3woIpj3jANzTXdvEZXA==
 
 "@types/ws@^8.2.2":
   version "8.2.2"
@@ -711,7 +711,7 @@ minimalistic-crypto-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
   integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
 
-node-fetch@2.6.7, node-fetch@^2.6.1, node-fetch@^2.6.6:
+node-fetch@2.6.7, node-fetch@^2.6.1, node-fetch@^2.6.6, node-fetch@^2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
@@ -724,8 +724,8 @@ oauth-1.0a@^2.2.4:
   integrity sha512-6bkxv3N4Gu5lty4viIcIAnq5GbxECviMBeKR3WX/q87SPQ8E8aursPZUtsXDnxCs787af09WPRBLqYrf/lwoYQ==
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "1.0.3"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/35b56e3b13339656486d28e0c04cd2fcc1655f42"
+  version "1.0.4"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/c4e2620f5ac3a72f11f1d2ee9dfb2a19282d7e91"
   dependencies:
     discord.js "^13.3.1"
     ethers "^5.5.2"
@@ -765,9 +765,9 @@ ts-mixer@^6.0.0:
   integrity sha512-nXIb1fvdY5CBSrDIblLn73NW0qRDk5yJ0Sk1qPBF560OdJfQp9jhl+0tzcY09OZ9U+6GpeoI9RjwoIKFIoB9MQ==
 
 ts-node@^10.4.0:
-  version "10.4.0"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.4.0.tgz#680f88945885f4e6cf450e7f0d6223dd404895f7"
-  integrity sha512-g0FlPvvCXSIO1JDF6S232P5jPYqBkRL9qly81ZgAOSU7rwI0stphCgd2kLiCrU9DjQCrJMWEqcNSjQL02s6d8A==
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.5.0.tgz#618bef5854c1fbbedf5e31465cbb224a1d524ef9"
+  integrity sha512-6kEJKwVxAJ35W4akuiysfKwKmjkbYxwQMTBaAxo9KKAx/Yd26mPUyhGz3ji+EsJoAgrLqVsYHNuuYwQe22lbtw==
   dependencies:
     "@cspotcode/source-map-support" "0.7.0"
     "@tsconfig/node10" "^1.0.7"
@@ -780,6 +780,7 @@ ts-node@^10.4.0:
     create-require "^1.1.0"
     diff "^4.0.1"
     make-error "^1.1.1"
+    v8-compile-cache-lib "^3.0.0"
     yn "3.1.1"
 
 tslib@^2.3.1:
@@ -800,6 +801,11 @@ typescript@^4.5.4:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
   integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
 
+v8-compile-cache-lib@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.0.tgz#0582bcb1c74f3a2ee46487ceecf372e46bce53e8"
+  integrity sha512-mpSYqfsFvASnSn5qMiwrr4VKfumbPyONLCOPmsR3A6pTY/r0+tSaVbgPWSAIuzbk3lCTa+FForeTiO+wBQGkjA==
+
 webidl-conversions@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
@@ -815,10 +821,10 @@ whatwg-url@^5.0.0:
 
 womptron@ryanio/womptron:
   version "1.0.1"
-  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/daf0cd89f46b45a14e52a3aa2df27f5e94c37cdf"
+  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/1372cfa8e91c15abf07d5e21f738ae49d6399036"
   dependencies:
     file-api "^0.10.4"
-    node-fetch "^2.6.1"
+    node-fetch "^2.6.7"
     twitter-lite "^1.1.0"
 
 ws@7.4.6:
@@ -827,9 +833,9 @@ ws@7.4.6:
   integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 ws@^8.4.0:
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.4.2.tgz#18e749868d8439f2268368829042894b6907aa0b"
-  integrity sha512-Kbk4Nxyq7/ZWqr/tarI9yIt/+iNNFOjBXEWgTb4ydaNHBNGgvf2QHbS9fdfsndfjFlFwEd4Al+mw83YkaD10ZA==
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
+  integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
 
 yn@3.1.1:
   version "3.1.1"
