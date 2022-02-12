@@ -523,7 +523,7 @@ discord-api-types@^0.26.0:
 
 discord-nft-bot@ryanio/discord-nft-bot:
   version "1.0.1"
-  resolved "https://codeload.github.com/ryanio/discord-nft-bot/tar.gz/98eba9956e71d76dc3b1c4913f81204554ec6ff7"
+  resolved "https://codeload.github.com/ryanio/discord-nft-bot/tar.gz/20bf5845dcf7564091999144011b1a58b4ad5dd8"
   dependencies:
     discord.js "^13.3.1"
     ethers "^5.5.2"
@@ -725,7 +725,7 @@ oauth-1.0a@^2.2.4:
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
   version "1.0.6"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/01102cc0fbe0b6596b7298ec549b282442e23d72"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/978c0822ae44588d07736bc51ec5389e891b4482"
   dependencies:
     discord.js "^13.3.1"
     ethers "^5.5.2"
@@ -821,7 +821,7 @@ whatwg-url@^5.0.0:
 
 womptron@ryanio/womptron:
   version "1.0.1"
-  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/1372cfa8e91c15abf07d5e21f738ae49d6399036"
+  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/cab7abdcff510f590d42c373ce76d18e5c9102e5"
   dependencies:
     file-api "^0.10.4"
     node-fetch "^2.6.7"
