@@ -724,8 +724,8 @@ oauth-1.0a@^2.2.4:
   integrity sha512-6bkxv3N4Gu5lty4viIcIAnq5GbxECviMBeKR3WX/q87SPQ8E8aursPZUtsXDnxCs787af09WPRBLqYrf/lwoYQ==
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "1.0.4"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/b1ce14e32916e3f3bc42d14a529152486d3f34ca"
+  version "1.0.5"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/e7f4dbf999a3adb7360101f710ff759cded5a240"
   dependencies:
     discord.js "^13.3.1"
     ethers "^5.5.2"
