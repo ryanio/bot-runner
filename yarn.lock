@@ -409,14 +409,14 @@
     form-data "^3.0.0"
 
 "@types/node@*":
-  version "17.0.17"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.17.tgz#a8ddf6e0c2341718d74ee3dc413a13a042c45a0c"
-  integrity sha512-e8PUNQy1HgJGV3iU/Bp2+D/DXh3PYeyli8LgIwsQcs1Ar1LoaWHSIT6Rw+H2rNJmiq6SNWiDytfx8+gYj7wDHw==
+  version "17.0.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.18.tgz#3b4fed5cfb58010e3a2be4b6e74615e4847f1074"
+  integrity sha512-eKj4f/BsN/qcculZiRSujogjvp5O/k4lOW5m35NopjZM/QwLOR075a8pJW5hD+Rtdm2DaCVPENS6KtSQnUD6BA==
 
 "@types/node@^16.11.19":
-  version "16.11.24"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.24.tgz#9624338b685fea65fb1aba6c7b7eb45ca2df7188"
-  integrity sha512-Ezv33Rl4mIi6YdSHfIRNBd4Q9kUe5okiaw/ikvJiJDmuQZNW5kfdg7+oQPF8NO6sTcr3woIpj3jANzTXdvEZXA==
+  version "16.11.25"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.25.tgz#bb812b58bacbd060ce85921250d8b4ca553cd4a2"
+  integrity sha512-NrTwfD7L1RTc2qrHQD4RTTy4p0CO2LatKBEKEds3CaVuhoM/+DJzmWZl5f+ikR8cm8F5mfJxK+9rQq07gRiSjQ==
 
 "@types/ws@^8.2.2":
   version "8.2.2"
@@ -725,7 +725,7 @@ oauth-1.0a@^2.2.4:
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
   version "1.0.7"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/6e2e5b61a4240a3c7aa6e7c85e2e76839a2bd548"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/b74c9e9786768ba24614ca22774cb2bcdd37542d"
   dependencies:
     discord.js "^13.3.1"
     ethers "^5.5.2"
