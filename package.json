@@ -10,7 +10,8 @@
   "scripts": {
     "postinstall": "yarn build",
     "build": "npx tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "updateDeps": "rm yarn.lock && yarn"
   },
   "dependencies": {
     "opensea-activity-bot": "ryanio/opensea-activity-bot",
