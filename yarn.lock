@@ -522,8 +522,8 @@ discord-api-types@^0.26.0:
   integrity sha512-T5PdMQ+Y1MEECYMV5wmyi9VEYPagEDEi4S0amgsszpWY0VB9JJ/hEvM6BgLhbdnKky4gfmZEXtEEtojN8ZKJQQ==
 
 discord-nft-bot@ryanio/discord-nft-bot:
-  version "1.0.5"
-  resolved "https://codeload.github.com/ryanio/discord-nft-bot/tar.gz/bce028002f3742405ed0900ddd0e6e83a5eb6939"
+  version "1.0.6"
+  resolved "https://codeload.github.com/ryanio/discord-nft-bot/tar.gz/4cf17bd42cf57c3aed95d6008129af0794c572aa"
   dependencies:
     discord.js "^13.3.1"
     ethers "^5.5.2"
@@ -724,8 +724,8 @@ oauth-1.0a@^2.2.4:
   integrity sha512-6bkxv3N4Gu5lty4viIcIAnq5GbxECviMBeKR3WX/q87SPQ8E8aursPZUtsXDnxCs787af09WPRBLqYrf/lwoYQ==
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "1.0.9"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/eeb1e94ae9fe0a31db77b8607d8125ef3a92ac31"
+  version "1.0.10"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/15e6f486c157224887284cacf1e787578098b45f"
   dependencies:
     discord.js "^13.3.1"
     ethers "^5.5.2"
