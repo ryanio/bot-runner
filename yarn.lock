@@ -725,7 +725,7 @@ oauth-1.0a@^2.2.4:
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
   version "1.0.10"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/15e6f486c157224887284cacf1e787578098b45f"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/bf589479938053b14eea0a7587af21536d1d15fe"
   dependencies:
     discord.js "^13.3.1"
     ethers "^5.5.2"
