@@ -522,8 +522,8 @@ discord-api-types@^0.26.0:
   integrity sha512-T5PdMQ+Y1MEECYMV5wmyi9VEYPagEDEi4S0amgsszpWY0VB9JJ/hEvM6BgLhbdnKky4gfmZEXtEEtojN8ZKJQQ==
 
 discord-nft-bot@ryanio/discord-nft-bot:
-  version "1.0.6"
-  resolved "https://codeload.github.com/ryanio/discord-nft-bot/tar.gz/4cf17bd42cf57c3aed95d6008129af0794c572aa"
+  version "1.0.7"
+  resolved "https://codeload.github.com/ryanio/discord-nft-bot/tar.gz/82f5c8d8e6e54585f893940238b221abcf4872be"
   dependencies:
     discord.js "^13.3.1"
     ethers "^5.5.2"
