@@ -18,10 +18,10 @@ The `delay` parameter is useful for staggering OpenSea requests from multiple ac
 
 `yarn start`
 
-#### Heroku
+#### Running on a server
 
-A `Procfile` is included for easy use on platforms like Heroku.
+It is recommended to use a DigitalOcean Droplet over Heroku for improved stability. Heroku servers restart frequently which can lead to duplicate posts.
 
-Clone this repo, push it to heroku, set up the environment variables above, and spin up a worker with `heroku ps:scale web=0 worker=1`
+Support this repository by using the referral badge below:
 
-Then watch the logs with `heroku logs --tail`
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=3f8c76216510&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
