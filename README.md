@@ -8,6 +8,8 @@ A bot runner to help orchestrate running multiple bots in one instance, for exam
 
 Set `BOT_RUNNER_INSTANCES` to a JSON array that mimics the structure of `env-example.json` with your own variables.
 
+The start command (default: `yarn run start`) will be run in the `node_modules` folder as specified by the key `bot`. To override the default start command, set on the instance key `command` with value e.g. `npm run anotherCommand`.
+
 To generate the string output for `BOT_RUNNER_INSTANCES` in this directory run `node` then `JSON.stringify(require('./env-example.json'))`.
 
 #### Delay
