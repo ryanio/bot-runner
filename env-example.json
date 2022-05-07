@@ -35,7 +35,7 @@
     },
     {
       "name": "example-listen-1",
-      "bot": "discord-nft-bot",
+      "bot": "discord-nft-embed-bot",
       "env": {
         "TOKEN_ADDRESS": "",
         "TOKEN_NAME": "",
@@ -48,7 +48,7 @@
     },
     {
       "name": "example-listen-2",
-      "bot": "discord-nft-bot",
+      "bot": "discord-nft-embed-bot",
       "env": {
         "TOKEN_ADDRESS": "",
         "TOKEN_NAME": "",

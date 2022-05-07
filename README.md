@@ -1,6 +1,6 @@
 # bot-runner
 
-A bot runner to help orchestrate running multiple bots in one instance, for example with [opensea-activity-bot](https://github.com/ryanio/opensea-activity-bot) and [discord-nft-bot](https://github.com/ryanio/discord-nft-bot).
+A bot runner to help orchestrate running multiple bots in one instance, for example with [opensea-activity-bot](https://github.com/ryanio/opensea-activity-bot) and [discord-nft-embed-bot](https://github.com/ryanio/discord-nft-embed-bot).
 
 ## Setup
 
