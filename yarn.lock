@@ -239,7 +239,7 @@ discord-api-types@0.37.61:
 
 discord-nft-embed-bot@ryanio/discord-nft-embed-bot:
   version "2.0.0"
-  resolved "https://codeload.github.com/ryanio/discord-nft-embed-bot/tar.gz/97dc9eec00bc3c45e636bbd284f4724317c8c855"
+  resolved "https://codeload.github.com/ryanio/discord-nft-embed-bot/tar.gz/884d50448eb8d2f336330996aff5af3f1642e010"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
