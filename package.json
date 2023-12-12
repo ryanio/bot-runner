@@ -5,7 +5,7 @@
   "author": "Ryan Ghods <ryan@ryanio.com>",
   "license": "MIT",
   "engines": {
-    "node": ">=16.13.1"
+    "node": ">=18"
   },
   "scripts": {
     "postinstall": "yarn build",
@@ -15,13 +15,12 @@
   },
   "dependencies": {
     "opensea-activity-bot": "ryanio/opensea-activity-bot",
-    "discord-nft-embed-bot": "ryanio/discord-nft-embed-bot",
-    "womptron": "ryanio/womptron"
+    "discord-nft-embed-bot": "ryanio/discord-nft-embed-bot"
   },
   "devDependencies": {
-    "@types/node": "^16.11.19",
-    "prettier": "^2.5.1",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.4"
+    "@types/node": "^18.0.0",
+    "prettier": "^3.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   }
 }
