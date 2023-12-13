@@ -238,8 +238,8 @@ discord-api-types@0.37.61:
   integrity sha512-o/dXNFfhBpYHpQFdT6FWzeO7pKc838QeeZ9d91CfVAtpr5XLK4B/zYxQbYgPdoMiTDvJfzcsLW5naXgmHGDNXw==
 
 discord-nft-embed-bot@ryanio/discord-nft-embed-bot:
-  version "2.0.2"
-  resolved "https://codeload.github.com/ryanio/discord-nft-embed-bot/tar.gz/e27cb72f2c350c319ba1274f7edd2d542345b0ab"
+  version "2.0.3"
+  resolved "https://codeload.github.com/ryanio/discord-nft-embed-bot/tar.gz/dd7288b5eecb232de0ba67fb762e5e2d7ad4b9da"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
@@ -315,8 +315,8 @@ oauth-1.0a@^2.2.4:
   integrity sha512-6bkxv3N4Gu5lty4viIcIAnq5GbxECviMBeKR3WX/q87SPQ8E8aursPZUtsXDnxCs787af09WPRBLqYrf/lwoYQ==
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "2.0.0"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/9e03931e523ba005318a5c37111fa723e0ac6ea2"
+  version "2.0.1"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/4934dfd7630acc5560d77d9ba484874ab3d145e7"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
@@ -426,9 +426,9 @@ ws@8.5.0:
   integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
 
 ws@^8.14.2:
-  version "8.15.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.15.0.tgz#db080a279260c5f532fc668d461b8346efdfcf86"
-  integrity sha512-H/Z3H55mrcrgjFwI+5jKavgXvwQLtfPCUEp6pi35VhoB0pfcHnSoyuTzkBEZpzq49g1193CUEwIvmsjcotenYw==
+  version "8.15.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.15.1.tgz#271ba33a45ca0cc477940f7f200cd7fba7ee1997"
+  integrity sha512-W5OZiCjXEmk0yZ66ZN82beM5Sz7l7coYxpRkzS+p9PP+ToQry8szKh+61eNktr7EA9DOwvFGhfC605jDHbP6QQ==
 
 yn@3.1.1:
   version "3.1.1"
