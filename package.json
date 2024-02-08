@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "opensea-activity-bot": "ryanio/opensea-activity-bot",
-    "discord-nft-embed-bot": "ryanio/discord-nft-embed-bot"
+    "discord-nft-embed-bot": "ryanio/discord-nft-embed-bot",
+    "womptron": "ryanio/womptron"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
