@@ -346,13 +346,13 @@ oauth-signature@^1.5.0:
     uri-js "^3.0.2"
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "2.0.3"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/dedb50b920a126e5624b748431c7d1534597b4ea"
+  version "2.0.5"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/f73cb079caaddbee8c834519dc129e305e2881af"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
     timeago.js "^4.0.2"
-    twitter-lite "^1.1.0"
+    twitter-api-v2 "^1.25.0"
 
 prettier@^3.1.1:
   version "3.6.2"
@@ -413,13 +413,10 @@ tslib@^2.6.2, tslib@^2.6.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
-twitter-lite@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/twitter-lite/-/twitter-lite-1.1.0.tgz#77f250cc73f14ecc5a493ddb81ff0a3e9ae72680"
-  integrity sha512-v37I0zyYXjn3/zdm/ii+1RiBFZ2SCB3wLl1N5nfW8TUqoNDYBR66oXBFbQavKEvjg5WqcTUzNhAhe6FkgylPsw==
-  dependencies:
-    cross-fetch "^3.0.0"
-    oauth-1.0a "^2.2.4"
+twitter-api-v2@^1.25.0:
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/twitter-api-v2/-/twitter-api-v2-1.25.0.tgz#708e04f0b852217eec48cb72ec3e75e64daa15e4"
+  integrity sha512-g3JDd5jwJD+gkEe2Qn3GI5GpasYJjFEauTw70kqiBGu+ectWUgtEKtIaZUGKB50+ApyNhl6v871YCS6un6YEJw==
 
 twitter-lite@ryanio/twitter-lite:
   version "1.1.0"
