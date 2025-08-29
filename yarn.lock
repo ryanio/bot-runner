@@ -504,8 +504,8 @@ oauth-signature@^1.5.0:
     uri-js "^3.0.2"
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "2.0.6"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/ad00ebdf14d46b892859435e87340a519fffe2c3"
+  version "2.0.7"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/2a22c6d8a62c103a2f5b941bd8f641d4eb7beddf"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
