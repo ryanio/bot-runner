@@ -11,7 +11,8 @@
     "postinstall": "yarn build",
     "build": "npx tsc",
     "start": "node dist/index.js",
-    "updateDeps": "rm yarn.lock && yarn"
+    "updateDeps": "rm yarn.lock && yarn",
+    "pub": "yarn updateDeps && git commit -am 'update' && git push origin main"
   },
   "dependencies": {
     "opensea-activity-bot": "ryanio/opensea-activity-bot",
