@@ -520,8 +520,8 @@ node-fetch@^2.6.7:
     whatwg-url "^5.0.0"
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "2.1.1"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/62cc432ddf2b2576eb592de756be1953d103fcec"
+  version "2.1.2"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/3f7ce5f9d78938addd017215518be7bc0d512a86"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
@@ -673,8 +673,8 @@ whatwg-url@^5.0.0:
     webidl-conversions "^3.0.0"
 
 womptron@ryanio/womptron:
-  version "1.1.1"
-  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/63cf795e14dc4cf245449bf60d3a4e0fc8e707a7"
+  version "1.1.2"
+  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/45d3ba779369e003627dc0cf64cfa74605d74ed4"
   dependencies:
     file-api "^0.10.4"
     node-fetch "^2.6.7"
