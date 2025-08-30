@@ -673,8 +673,8 @@ whatwg-url@^5.0.0:
     webidl-conversions "^3.0.0"
 
 womptron@ryanio/womptron:
-  version "1.1.0"
-  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/b55c7e5e80e2a73d5aee4db956c215e5c8796965"
+  version "1.1.1"
+  resolved "https://codeload.github.com/ryanio/womptron/tar.gz/d8c052e84451f65e59b0597d27df27cc62c0daf2"
   dependencies:
     file-api "^0.10.4"
     node-fetch "^2.6.7"
