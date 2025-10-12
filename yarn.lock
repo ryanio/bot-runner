@@ -521,7 +521,7 @@ node-fetch@^2.6.7:
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
   version "2.3.0"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/ed0237219d4c98968580f2325817bb818829026d"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/7c5e31f6d3d1cd59af63018a08ad3523fabef8d8"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
