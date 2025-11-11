@@ -14,15 +14,15 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@discordjs/builders@^1.12.1":
-  version "1.12.2"
-  resolved "https://registry.yarnpkg.com/@discordjs/builders/-/builders-1.12.2.tgz#d49c3796e75a6e6533e6bd4ca0de0b3716725a5a"
-  integrity sha512-AugKmrgRJOHXEyMkABH/hXpAmIBKbYokCEl9VAM4Kh6FvkdobQ+Zhv7AR6K+y5hS7+VQ7gKXPYCe1JQmV07H1g==
+"@discordjs/builders@^1.13.0":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@discordjs/builders/-/builders-1.13.0.tgz#332963d88f7452fdbfbf156c6afd4ba7eac44e04"
+  integrity sha512-COK0uU6ZaJI+LA67H/rp8IbEkYwlZf3mAoBI5wtPh5G5cbEQGNhVpzINg2f/6+q/YipnNIKy6fJDg6kMUKUw4Q==
   dependencies:
     "@discordjs/formatters" "^0.6.1"
     "@discordjs/util" "^1.1.1"
     "@sapphire/shapeshift" "^4.0.0"
-    discord-api-types "^0.38.26"
+    discord-api-types "^0.38.31"
     fast-deep-equal "^3.1.3"
     ts-mixer "^6.0.4"
     tslib "^2.6.3"
@@ -80,9 +80,9 @@
     ws "^8.17.0"
 
 "@emnapi/runtime@^1.2.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@emnapi/runtime/-/runtime-1.5.0.tgz#9aebfcb9b17195dce3ab53c86787a6b7d058db73"
-  integrity sha512-97/BJ3iXHww3djw6hYIfErCZFee7qCtrneuLa20UXFCOTCfBM2cvQHjWJ2EG0s0MtdNwInarqCTz35i4wWXHsQ==
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@emnapi/runtime/-/runtime-1.7.0.tgz#d7ef3832df8564fe5903bf0567aedbd19538ecbe"
+  integrity sha512-oAYoQnCYaQZKVS53Fq23ceWMRxq5EhQsE0x0RdQ55jT7wagMu5k+fS39v1fiSLrtrLQlXwVINenqhLMtTrV/1Q==
   dependencies:
     tslib "^2.4.0"
 
@@ -273,11 +273,11 @@
   integrity sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==
 
 "@types/node@*":
-  version "24.7.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.7.2.tgz#5adf66b6e2ac5cab1d10a2ad3682e359cb652f4a"
-  integrity sha512-/NbVmcGTP+lj5oa4yiYxxeBjRivKQ5Ns1eSZeB99ExsEQ6rX5XYU1Zy/gGxY/ilqtD4Etx9mKyrPxZRetiahhA==
+  version "24.10.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.0.tgz#6b79086b0dfc54e775a34ba8114dcc4e0221f31f"
+  integrity sha512-qzQZRBqkFsYyaSWXuEHc2WR9c0a0CXwiE5FWUvn7ZM+vdy1uZLfCunD38UzhuB7YN/J11ndbDBcTmOdxJo9Q7A==
   dependencies:
-    undici-types "~7.14.0"
+    undici-types "~7.16.0"
 
 "@types/node@22.7.5":
   version "22.7.5"
@@ -392,10 +392,10 @@ diff@^4.0.1:
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
-discord-api-types@^0.38.1, discord-api-types@^0.38.16, discord-api-types@^0.38.26, discord-api-types@^0.38.29:
-  version "0.38.30"
-  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.30.tgz#c364f38802ecf73653add243f4dd7f8228b8323d"
-  integrity sha512-KhAqlBrg+rVK+Ob7INMF5o63yW4/GUzRatG/AjyVsIO8lgcLyR8qCl2HokIVzWwmzkJYG0CEPXsKMOqau3E8NA==
+discord-api-types@^0.38.1, discord-api-types@^0.38.16, discord-api-types@^0.38.31:
+  version "0.38.33"
+  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.33.tgz#6755dae0fa305c549a7fd6d1ce5125187612138d"
+  integrity sha512-oau1V7OzrNX8yNi+DfQpoLZCNCv7cTFmvPKwHfMrA/tewsO6iQKrMTzA7pa3iBSj0fED6NlklJ/1B/cC1kI08Q==
 
 discord-nft-embed-bot@ryanio/discord-nft-embed-bot:
   version "2.1.0"
@@ -405,18 +405,18 @@ discord-nft-embed-bot@ryanio/discord-nft-embed-bot:
     ethers "^6.9.0"
 
 discord.js@^14.14.1:
-  version "14.23.2"
-  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.23.2.tgz#8fff74bd4dcd0327fa523f3dd8418c88fbf304e3"
-  integrity sha512-tU2NFr823X3TXEc8KyR/4m296KLxPai4nirN3q9kHCpY4TKj96n9lHZnyLzRNMui8EbL07jg9hgH2PWWfKMGIg==
+  version "14.24.2"
+  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.24.2.tgz#070519dd401cd2cf1f30f86a20d227999b13f610"
+  integrity sha512-VMEDbmguRdX/EeMaTsf9Mb0IQA90WdYF2cn4QDfslQFXgQ6LFtmlPn0FSotnS0kcFbFp+JBSIxtnF+bnAHG/hQ==
   dependencies:
-    "@discordjs/builders" "^1.12.1"
+    "@discordjs/builders" "^1.13.0"
     "@discordjs/collection" "1.5.3"
     "@discordjs/formatters" "^0.6.1"
     "@discordjs/rest" "^2.6.0"
     "@discordjs/util" "^1.1.1"
     "@discordjs/ws" "^1.2.3"
     "@sapphire/snowflake" "3.5.3"
-    discord-api-types "^0.38.29"
+    discord-api-types "^0.38.31"
     fast-deep-equal "3.1.3"
     lodash.snakecase "4.1.1"
     magic-bytes.js "^1.10.0"
@@ -520,8 +520,8 @@ node-fetch@^2.6.7:
     whatwg-url "^5.0.0"
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "2.3.4"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/9f6fb3779c4ca81af228a73a818d851fed23ce7b"
+  version "3.0.0"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/f1939c33353792256fdd0b9b91dd1397c9c56a1d"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
@@ -644,10 +644,10 @@ undici-types@~6.19.2:
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
   integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
 
-undici-types@~7.14.0:
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.14.0.tgz#4c037b32ca4d7d62fae042174604341588bc0840"
-  integrity sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA==
+undici-types@~7.16.0:
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.16.0.tgz#ffccdff36aea4884cbfce9a750a0580224f58a46"
+  integrity sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==
 
 undici@6.21.3:
   version "6.21.3"
