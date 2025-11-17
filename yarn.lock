@@ -393,9 +393,9 @@ diff@^4.0.1:
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
 discord-api-types@^0.38.1, discord-api-types@^0.38.16, discord-api-types@^0.38.31:
-  version "0.38.33"
-  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.33.tgz#6755dae0fa305c549a7fd6d1ce5125187612138d"
-  integrity sha512-oau1V7OzrNX8yNi+DfQpoLZCNCv7cTFmvPKwHfMrA/tewsO6iQKrMTzA7pa3iBSj0fED6NlklJ/1B/cC1kI08Q==
+  version "0.38.34"
+  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.34.tgz#eb2bdad107d833f4e550aa781e4a68a2d4b8e150"
+  integrity sha512-muq7xKGznj5MSFCzuIm/2TO7DpttuomUTemVM82fRqgnMl70YRzEyY24jlbiV6R9tzOTq6A6UnZ0bsfZeKD38Q==
 
 discord-nft-embed-bot@ryanio/discord-nft-embed-bot:
   version "2.1.0"
@@ -520,8 +520,8 @@ node-fetch@^2.6.7:
     whatwg-url "^5.0.0"
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "3.1.0"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/498910e00c7c7955b6b3b2412594a31497e81557"
+  version "3.1.1"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/05b165feac865a9930a4c1c828882e91d586a2ac"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
@@ -625,9 +625,9 @@ tslib@^2.4.0, tslib@^2.6.2, tslib@^2.6.3:
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 twitter-api-v2@^1.17.2, twitter-api-v2@^1.25.0:
-  version "1.27.0"
-  resolved "https://registry.yarnpkg.com/twitter-api-v2/-/twitter-api-v2-1.27.0.tgz#a646ea27ff6f94fdd141939f3e8561f935367d44"
-  integrity sha512-hbIFwzg0NeOcFOdmJqtKMCXjLjc0INff/7NwhnZ2zpnw65oku8i+0eMxo5M0iTc1hs+inD/IpDw3S0Xh2c45QQ==
+  version "1.28.0"
+  resolved "https://registry.yarnpkg.com/twitter-api-v2/-/twitter-api-v2-1.28.0.tgz#4be01011378527dac8c9f699e7036254f7a0fe2f"
+  integrity sha512-VBmiAMylCEr94OChaHJ+0TBrOZNrduwWUe7QLoa/KdOdv1fNiToJ0xZGOrNKFd2B7jrAdAkfUW6yA5LuXYOYLQ==
 
 typescript@^5.3.3:
   version "5.9.3"
