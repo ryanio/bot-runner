@@ -522,8 +522,8 @@ node-fetch@^2.6.7:
     whatwg-url "^5.0.0"
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "3.4.2"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/6610899d18bc65a3bd9d08bffc256a18a014147b"
+  version "3.4.3"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/272e16374a0d576249417bd4384dad126b77f453"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
