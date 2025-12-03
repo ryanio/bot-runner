@@ -426,9 +426,9 @@ discord.js@^14.14.1:
     undici "6.21.3"
 
 ethers@^6.9.0:
-  version "6.15.0"
-  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.15.0.tgz#2980f2a3baf0509749b7e21f8692fa8a8349c0e3"
-  integrity sha512-Kf/3ZW54L4UT0pZtsY/rf+EkBU7Qi5nnhonjUb8yTXcxH3cdcWrV2cRyk0Xk/4jK6OoHhxxZHriyhje20If2hQ==
+  version "6.16.0"
+  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.16.0.tgz#fff9b4f05d7a359c774ad6e91085a800f7fccf65"
+  integrity sha512-U1wulmetNymijEhpSEQ7Ct/P/Jw9/e7R1j5XIbPRydgV2DjLVMsULDlNksq3RQnFgKoLlZf88ijYtWEXcPa07A==
   dependencies:
     "@adraffy/ens-normalize" "1.10.1"
     "@noble/curves" "1.2.0"
@@ -522,8 +522,8 @@ node-fetch@^2.6.7:
     whatwg-url "^5.0.0"
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "3.4.7"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/ea2027f13e7c8ab537f3d23aefcc4668926858f4"
+  version "3.4.8"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/d1cb9d36d3bb09be7d95af1d433188383e5ae425"
   dependencies:
     discord.js "^14.14.1"
     ethers "^6.9.0"
@@ -532,9 +532,9 @@ opensea-activity-bot@ryanio/opensea-activity-bot:
     twitter-api-v2 "^1.25.0"
 
 prettier@^3.1.1:
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.3.tgz#99a8891f6c990cfa54bcff2a0d276e6f845e59ab"
-  integrity sha512-QgODejq9K3OzoBbuyobZlUhznP5SKwPqp+6Q6xw6o8gnhr4O85L2U915iM2IDcfF2NPXVaM9zlo9tdwipnYwzg==
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.4.tgz#d2f8335d4b1cec47e1c8098645411b0c9dff9c0f"
+  integrity sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==
 
 "remedial@>= 1.0.7", remedial@^1.0.7:
   version "1.0.8"
