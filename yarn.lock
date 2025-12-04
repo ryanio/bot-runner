@@ -401,12 +401,12 @@ discord-api-types@^0.38.1, discord-api-types@^0.38.16, discord-api-types@^0.38.3
 
 discord-nft-embed-bot@ryanio/discord-nft-embed-bot:
   version "3.0.1"
-  resolved "https://codeload.github.com/ryanio/discord-nft-embed-bot/tar.gz/ee1d4306bd9f252a2f5fc352cf78ab403a400f1b"
+  resolved "https://codeload.github.com/ryanio/discord-nft-embed-bot/tar.gz/30cfc0e8682466a6f54d8ff846172348d07b8e12"
   dependencies:
-    discord.js "^14.14.1"
-    ethers "^6.9.0"
+    discord.js "^14.25.1"
+    ethers "^6.16.0"
 
-discord.js@^14.14.1:
+discord.js@^14.25.1:
   version "14.25.1"
   resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.25.1.tgz#ef8a298b814de2377776fcc732429cc53444d8ad"
   integrity sha512-2l0gsPOLPs5t6GFZfQZKnL1OJNYFcuC/ETWsW4VtKVD/tg4ICa9x+jb9bkPffkMdRpRpuUaO/fKkHCBeiCKh8g==
@@ -425,7 +425,7 @@ discord.js@^14.14.1:
     tslib "^2.6.3"
     undici "6.21.3"
 
-ethers@^6.9.0:
+ethers@^6.16.0:
   version "6.16.0"
   resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.16.0.tgz#fff9b4f05d7a359c774ad6e91085a800f7fccf65"
   integrity sha512-U1wulmetNymijEhpSEQ7Ct/P/Jw9/e7R1j5XIbPRydgV2DjLVMsULDlNksq3RQnFgKoLlZf88ijYtWEXcPa07A==
@@ -522,11 +522,11 @@ node-fetch@^2.6.7:
     whatwg-url "^5.0.0"
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "3.5.1"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/0db32f7856f7a920eb008eb20d6292d825c99f40"
+  version "3.5.3"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/944a82fe93f6fb73e5c58c10b2369fed3f95b65f"
   dependencies:
-    discord.js "^14.14.1"
-    ethers "^6.9.0"
+    discord.js "^14.25.1"
+    ethers "^6.16.0"
     sharp "^0.33.5"
     timeago.js "^4.0.2"
     twitter-api-v2 "^1.25.0"
