@@ -401,7 +401,7 @@ discord-api-types@^0.38.1, discord-api-types@^0.38.16, discord-api-types@^0.38.3
 
 discord-nft-embed-bot@ryanio/discord-nft-embed-bot:
   version "3.0.3"
-  resolved "https://codeload.github.com/ryanio/discord-nft-embed-bot/tar.gz/b1dd93dcca10be311c18e4d53b3f661b663d79ad"
+  resolved "https://codeload.github.com/ryanio/discord-nft-embed-bot/tar.gz/88964af175bd362b56f3a11dded26c56c1e7e773"
   dependencies:
     discord.js "^14.25.1"
     ethers "^6.16.0"
@@ -523,7 +523,7 @@ node-fetch@^2.6.7:
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
   version "3.5.3"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/944a82fe93f6fb73e5c58c10b2369fed3f95b65f"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/9239424a3275ea39c950fcd38c269936b6f6f203"
   dependencies:
     discord.js "^14.25.1"
     ethers "^6.16.0"
