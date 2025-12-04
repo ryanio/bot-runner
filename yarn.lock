@@ -498,8 +498,8 @@ foreachasync@^3.0.0:
     remedial "^1.0.7"
 
 glyphbots-discord-bot@ryanio/glyphbots-discord-bot:
-  version "1.0.0"
-  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/9e1c6d1539645c9bcb85238a7dc379518e70a66f"
+  version "1.0.1"
+  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/a923bc984751f6e6df0fc6c9025098292c7ebedd"
   dependencies:
     "@openrouter/sdk" "^0.2.9"
     discord.js "^14.25.1"
