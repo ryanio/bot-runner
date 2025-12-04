@@ -491,8 +491,8 @@ foreachasync@^3.0.0:
     remedial "^1.0.7"
 
 glyphbots-discord-bot@ryanio/glyphbots-discord-bot:
-  version "1.0.2"
-  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/155b9f632d114ec28f05cb06748afd6c6367cee2"
+  version "1.0.3"
+  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/58cb6846d8156873c14337bace67daa8581bdc70"
   dependencies:
     discord.js "^14.25.1"
     dotenv "^17.2.3"
