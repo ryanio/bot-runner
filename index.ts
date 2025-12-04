@@ -36,9 +36,12 @@ async function main() {
       const { delay, bot, name } = instance
       const delayMsg = delay ? ` in ${delay}s` : ''
       console.log(`Starting ${name} (${bot})${delayMsg}...`)
-      setTimeout(() => {
-        exec(instance)
-      }, (delay ?? 0) * 1000)
+      setTimeout(
+        () => {
+          exec(instance)
+        },
+        (delay ?? 0) * 1000,
+      )
     }
   }
 

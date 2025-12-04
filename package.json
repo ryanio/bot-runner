@@ -1,6 +1,6 @@
 {
   "name": "bot-runner",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A bot runner to help orchestrate running multiple bots in one instance.",
   "author": "Ryan Ghods <ryan@ryanio.com>",
   "license": "MIT",
@@ -17,12 +17,13 @@
   "dependencies": {
     "opensea-activity-bot": "ryanio/opensea-activity-bot",
     "discord-nft-embed-bot": "ryanio/discord-nft-embed-bot",
+    "glyphbots-discord-bot": "ryanio/glyphbots-discord-bot",
     "womptron": "ryanio/womptron"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
-    "prettier": "^3.1.1",
+    "prettier": "^3.7.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.9.3"
   }
 }
