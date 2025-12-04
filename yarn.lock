@@ -499,7 +499,7 @@ foreachasync@^3.0.0:
 
 glyphbots-discord-bot@ryanio/glyphbots-discord-bot:
   version "1.0.0"
-  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/e9565b31af19a1d94ed8135fb2087183a09f40ba"
+  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/9e1c6d1539645c9bcb85238a7dc379518e70a66f"
   dependencies:
     "@openrouter/sdk" "^0.2.9"
     discord.js "^14.25.1"
@@ -543,8 +543,8 @@ node-fetch@^2.6.7:
     whatwg-url "^5.0.0"
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "3.5.7"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/67c8f20e7ff610c0e20db9b8b4a5f477bcc1cae1"
+  version "3.5.8"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/a8c7bccb9dc27efbbd1e0cad61e7ec96618093b9"
   dependencies:
     discord.js "^14.25.1"
     dotenv "^17.2.3"
