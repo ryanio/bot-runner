@@ -275,9 +275,9 @@
   integrity sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==
 
 "@types/node@*":
-  version "24.10.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.1.tgz#91e92182c93db8bd6224fca031e2370cef9a8f01"
-  integrity sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ==
+  version "24.10.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.2.tgz#82a57476a19647d8f2c7750d0924788245e39b26"
+  integrity sha512-WOhQTZ4G8xZ1tjJTvKOpyEVSGgOTvJAfDK3FNFgELyaTpzhdgHVHeqW8V+UJvzF5BT+/B54T/1S2K6gd9c7bbA==
   dependencies:
     undici-types "~7.16.0"
 
@@ -491,8 +491,8 @@ foreachasync@^3.0.0:
     remedial "^1.0.7"
 
 glyphbots-discord-bot@ryanio/glyphbots-discord-bot:
-  version "1.1.0"
-  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/d484b4b996c6d5fbffc8ebfab2c42a17dbbff18c"
+  version "1.1.1"
+  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/44ea36bfda63e8e4f83f4f3016cf3127b6f1290b"
   dependencies:
     discord.js "^14.25.1"
     dotenv "^17.2.3"
