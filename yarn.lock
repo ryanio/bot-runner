@@ -672,8 +672,8 @@ glob@^10.3.7:
     path-scurry "^1.11.1"
 
 glyphbots-discord-bot@ryanio/glyphbots-discord-bot:
-  version "2.0.0"
-  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/4f59f4fede6b1dd02623c4a28a95f6cc32ac6dd8"
+  version "2.0.1"
+  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/8e8b9bed052e37316d5cf8b020514478201736ec"
   dependencies:
     "@google/genai" "^1.34.0"
     discord.js "^14.25.1"
@@ -830,8 +830,8 @@ node-fetch@^3.3.2:
     formdata-polyfill "^4.0.10"
 
 opensea-activity-bot@ryanio/opensea-activity-bot:
-  version "3.6.3"
-  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/7745d081a4c44d6d4420c1a243b29763e9554775"
+  version "3.6.5"
+  resolved "https://codeload.github.com/ryanio/opensea-activity-bot/tar.gz/512254324aa739e6012957927618732e660ef882"
   dependencies:
     discord.js "^14.25.1"
     dotenv "^17.2.3"
