@@ -672,8 +672,8 @@ glob@^10.3.7:
     path-scurry "^1.11.1"
 
 glyphbots-discord-bot@ryanio/glyphbots-discord-bot:
-  version "2.1.3"
-  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/1f436158bde74114c53f86b020545be4d4fbff87"
+  version "2.1.4"
+  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/4e235285f7983c0e18566afdcf44f350180a8b3f"
   dependencies:
     "@google/genai" "^1.34.0"
     discord.js "^14.25.1"
