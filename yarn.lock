@@ -672,8 +672,8 @@ glob@^10.3.7:
     path-scurry "^1.11.1"
 
 glyphbots-discord-bot@ryanio/glyphbots-discord-bot:
-  version "2.1.5"
-  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/e73b924199b3a477c4304b901ba80ac03e66ad32"
+  version "2.1.6"
+  resolved "https://codeload.github.com/ryanio/glyphbots-discord-bot/tar.gz/57b67703a061e06b4027e5def6b66dd0585ae40d"
   dependencies:
     "@google/genai" "^1.34.0"
     discord.js "^14.25.1"
@@ -1122,9 +1122,9 @@ ws@8.17.1:
   integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
 
 ws@^8.17.0, ws@^8.18.0:
-  version "8.18.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.3.tgz#b56b88abffde62791c639170400c93dcb0c95472"
-  integrity sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==
+  version "8.19.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.19.0.tgz#ddc2bdfa5b9ad860204f5a72a4863a8895fd8c8b"
+  integrity sha512-blAT2mjOEIi0ZzruJfIhb3nps74PRWTCz1IjglWEEpQl5XS/UNama6u2/rjFkDDouqr4L67ry+1aGIALViWjDg==
 
 yn@3.1.1:
   version "3.1.1"
