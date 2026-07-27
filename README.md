@@ -1,3 +1,13 @@
+> ## Retired
+>
+> This repo is no longer maintained and is no longer deployed anywhere. It was retired on 2026-07-26, when the DigitalOcean droplet it ran on was cancelled.
+>
+> Nothing replaced it, and nothing needed to. This was a supervisor that spawned [opensea-activity-bot](https://github.com/ryanio/opensea-activity-bot) and [discord-nft-embed-bot](https://github.com/ryanio/discord-nft-embed-bot) as child processes on a single droplet, installing them from GitHub as npm dependencies. Those bots were consolidated into one Cloudflare Worker in [ryanio/glyphbots-discord-bot](https://github.com/ryanio/glyphbots-discord-bot) under `worker/`, so there are no longer multiple processes to keep alive on one box. The problem this solved does not exist anymore.
+>
+> One flaw worth recording before it is forgotten: when a child process crashed, the parent stayed up, so pm2 saw a healthy process and reported nothing wrong. A dead bot could sit dead indefinitely with no signal.
+>
+> The source below is kept as a record.
+
 # bot-runner
 
 A bot runner to help orchestrate running multiple bots in one instance, for example with [opensea-activity-bot](https://github.com/ryanio/opensea-activity-bot) and [discord-nft-embed-bot](https://github.com/ryanio/discord-nft-embed-bot).

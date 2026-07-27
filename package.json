@@ -1,7 +1,7 @@
 {
   "name": "bot-runner",
   "version": "2.0.0",
-  "description": "A bot runner to help orchestrate running multiple bots in one instance.",
+  "description": "DEPRECATED: retired 2026-07-26, obsolete since the bots it supervised were consolidated into one Cloudflare Worker in ryanio/glyphbots-discord-bot. A bot runner to help orchestrate running multiple bots in one instance.",
   "author": "Ryan Ghods <ryan@ryanio.com>",
   "license": "MIT",
   "engines": {
